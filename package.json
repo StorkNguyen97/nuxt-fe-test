@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-fe-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.11.2",
+    "nuxt": "^3.19.1",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.21"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.14.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
